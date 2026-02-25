@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --laed: #212121;
+    --gold-finger: #f2bd12;
+    --eye-ball: #fffdf7;
+    --hint-yellow: #fcf1cc;
+    --pure-white:#fff;
+}
+
+body{
+    background-color: var(--eye-ball);
+}
+
+/* BASIC STYLING */
+
+a{
+    font-size: 1.1em;
+    text-decoration: none;
+    color: var(--laed);
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.gap-3{
+    gap: 3rem;
+}
+
+
+/* HEADER STYLING */
+
+.navbar{
+    min-height: 14vh;
+}
+
+.wrapper{
+    max-width: 1400px;
+    margin: auto;
+    padding-inline: 1.5rem;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--gold-finger);
+}
+
+.btn{
+    display: inline-block;
+    padding: .9rem 2rem;
+    background-color: var(--gold-finger);
+    border-radius: 1rem;
+    font-size: 1.1rem;
+    color: var(--pure-white);
+    box-shadow: black (0, 0, 0, 0.1) 0 2px 1px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover{
+    background-color: var(--laed);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SECTION STYLING */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER STYLING */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUARY */
