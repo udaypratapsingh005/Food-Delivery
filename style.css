@@ -74,6 +74,9 @@ img{
     margin-top: 4rem;
 }
 
+.mt-half{
+    margin-top: .5rem;
+}
 
 
 /* HEADER STYLING */
@@ -245,6 +248,36 @@ h4{
     padding: 1.3rem 0 2rem 0;
 }
 
+/* SECTION 03 */
+
+.review-container{
+    width: 650px;
+    max-width: 100%;
+    flex: 1;
+}
+
+.profile{
+    width: 4rem;
+    aspect-ratio: 1;
+    border-radius: 100vw;
+    overflow: hidden;
+}
+
+.fa-star{
+    color: var(--gold-finger);
+}
+
+.profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.swiper {
+      width: 100%;
+      height: 100%;
+    }
 
 
 
