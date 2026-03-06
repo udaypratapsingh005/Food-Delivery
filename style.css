@@ -63,7 +63,7 @@ img{
 }
 
 .p-top{
-    padding-top: 10rem;
+    padding-top: 5rem;
 }
 
 .text-center{
@@ -78,6 +78,9 @@ img{
     margin-top: .5rem;
 }
 
+.m-auto{
+    margin: auto;
+}
 
 /* HEADER STYLING */
 
@@ -280,9 +283,34 @@ h4{
     }
 
 
+.arrow{
+    width: 2.5rem;
+    aspect-ratio: 1;
+    border-radius: 100vw;
+    background: var(--gold-finger);
+    color: var(--laed);
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+/* SECTION 04 */
+
+.app-container{
+    background-color: var(--hint-yellow);
+    padding: 3rem 6rem;
+    border-radius: 3rem;
+}
+
+.app-container .content h2{
+    font-size: 4.5rem;
+}
 
 
 
+.app-container .image-container img{
+    width: 25rem;
+    
+}
 
 
 
@@ -378,4 +406,16 @@ h4{
         h1{
             font-size: 3rem;
         }
+
+        /* SECTION04 */
+
+        .app-container{
+            padding: 2.2rem;
+        }
+
+        .app-container .content h2{
+            font-size: 3.5rem;
+        }
+
+
 }

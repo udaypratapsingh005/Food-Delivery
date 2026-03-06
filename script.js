@@ -1,7 +1,7 @@
 var swiper = new Swiper(".mySwiper", {
-    loop
+      loop : true,
       navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl:"#next",
+        prevEl: "#prev",
       },
     });

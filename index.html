@@ -16,6 +16,7 @@
       href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
   </head>
   <body>
     <!-- HEADER PART -->
@@ -191,7 +192,7 @@
             <div class="review-container">
               <!-- Swiper -->
               <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
+                <div class="swiper-wrapper mt-4">
                   <div class="swiper-slide">
                     <div class="flex gap-2">
                       <div class="profile">
@@ -208,14 +209,14 @@
                         </div>
                       </div>
                     </div>
-                    <p>
-                    Foodie is the best. Besides the many delicious the service
-                    is also very good, espacially very delivery. I highly
-                    recommend Foodie to you.
-                  </p>
-                </div>
+                    <p class="para">
+                      Foodie is the best. Besides the many delicious the service
+                      is also very good, espacially very delivery. I highly
+                      recommend Foodie to you.
+                    </p>
+                  </div>
 
-                <div class="swiper-slide">
+                  <div class="swiper-slide">
                     <div class="flex gap-2">
                       <div class="profile">
                         <img src="./images/profile2.jpeg" alt="" />
@@ -231,12 +232,14 @@
                         </div>
                       </div>
                     </div>
-                    <p>
-                    Fresh ingredients, creative menu, and warm service make this spot a hidden gem. Perfect for casual dinners or special night out. Truly a foodie's paradise!
-                  </p>
-                </div>
+                    <p class="para">
+                      Fresh ingredients, creative menu, and warm service make
+                      this spot a hidden gem. Perfect for casual dinners or
+                      special night out. Truly a foodie's paradise!
+                    </p>
+                  </div>
 
-                <div class="swiper-slide">
+                  <div class="swiper-slide">
                     <div class="flex gap-2">
                       <div class="profile">
                         <img src="./images/profile3.jpeg" alt="" />
@@ -252,26 +255,65 @@
                         </div>
                       </div>
                     </div>
-                    <p>
-                    Delicious dishes, cozy ambiance, and exceptional service. 
-                    A must-visit for food lovers seeking bold flavors  and unforgettable dining experiences. Highly recommended, every bite delights!
-                  </p>
+                    <p class="para">
+                      Delicious dishes, cozy ambiance, and exceptional service.
+                      A must-visit for food lovers seeking bold flavors and
+                      unforgettable dining experiences. Highly recommended,
+                      every bite delights!
+                    </p>
+                  </div>
                 </div>
+                <div class="flex between">
+                  <a href="#" class="arrow" id="prev">
+                    <i class="fa-solid fa-arrow-left"></i>
+                  </a>
 
+                  <a href="#" class="arrow" id="next">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </a>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      <section>
+        <div class="wrapper p-top">
+          <div class="app-container flex between">
+            <div class="image-container">
+              <img src="./images/mobile-app.png" />
+            </div>
+
+            <div class="content">
+              <h5>Our Application</h5>
+              <h2>
+                Simple Way To <br />
+                Order Your Food
+              </h2>
+              <p class="para">
+                Discover food whenever and whenever <br />
+                and get your food delivery quickly.
+              </p>
+              <a href="#" class="btn"> Get the app</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <search>
+        <div class="wrapper p-top">
+          <div class="text-center">
+            <h5>Our Subscribe</h5>
+            <h2>Subscribe To Our Newsletter</h2>
+            <p class="para m-auto">We recommend you to subscribe our newpaper, drop your email below to get daily update about us.</p>
+          </div>
+        </div>
+      </search>
     </main>
 
     <!-- FOOTER PART -->
     <footer></footer>
-
-    <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
   </body>
 </html>
