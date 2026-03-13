@@ -176,6 +176,43 @@
                         <a href="#" class="btn">Add to Cart</a>
                     </div> -->
           </div>
+
+          <!-- CART TAB -->
+
+          <div class="cart-tab">
+            <h3>Your Cart</h3>
+
+            <div class="cart-list">
+              <div class="item">
+                <div class="item-image">
+                  <img src="./images/burger.png">
+                </div>
+                <div class>
+                  <h4>Double Beef Burger</h4>
+                  <h4 class="item-total">0.00</h4>
+                </div>
+                <div>
+                  <a href="#" class="quantity-btn">
+                    <i class="fa-solid fa-minus"></i>
+                  </a>
+                  <h4 class="quantity-value">1</h4>
+                  <a href="#" class="quantity-btn">
+                    <i class="fa-solid fa-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="total-container">
+              <h4>Total:</h4>
+              <h4 class="cart-total">0.00</h4>
+            </div>
+
+            <div class="btn-container flex gap-2">
+              <a href="#" class="btn close-btn">Close</a>
+              <a href="#" class="btn">Check Out</a>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -185,11 +222,10 @@
             <img src="./images/delivery-boy-with-phone.png" alt="" />
           </div>
 
-          <div class="content">
+          <div class="review-container">
             <h5>Our reviews</h5>
             <h2>What they say?</h2>
 
-            <div class="review-container">
               <!-- Swiper -->
               <div class="swiper mySwiper">
                 <div class="swiper-wrapper mt-4">
@@ -273,7 +309,6 @@
                   </a>
                 </div>
               </div>
-            </div>
           </div>
         </div>
       </section>
@@ -301,19 +336,119 @@
         </div>
       </section>
 
-      <search>
+      <section>
         <div class="wrapper p-top">
           <div class="text-center">
             <h5>Our Subscribe</h5>
             <h2>Subscribe To Our Newsletter</h2>
-            <p class="para m-auto">We recommend you to subscribe our newpaper, drop your email below to get daily update about us.</p>
+            <p class="para m-auto">
+              We recommend you to subscribe our newpaper, drop your email below
+              to get daily update about us.
+            </p>
+
+            <label class="input-container flex">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email address"
+                autocomplete="off"
+              />
+              <a href="#" class="btn">Subscribe</a>
+            </label>
           </div>
         </div>
-      </search>
+      </section>
     </main>
 
     <!-- FOOTER PART -->
-    <footer></footer>
+    <footer>
+      <div class="footer-container">
+        <div class="flex wrapper gap-4">
+          <div class="footer-wrapper">
+            <a href="#" class="logo">Khao ji Khao</a>
+            <p class="mt-one-half">
+              We will fill your tummy with deliciousbr <br />
+              food with fast delivery.
+            </p>
+
+            <div class="flex gap-2 mt-one-half">
+
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-google-plus-g"></i>
+              </a>
+            </div>
+          </div>
+
+          <ul class="footer-wrapper">
+            <li>
+              <h4>Our Menu</h4>
+            </li>
+            <li class="mt-one-half">
+              <a href="#" class="footer-link">Specail</a>
+            </li>
+            <li class="mt-one-half">
+              <a href="#" class="footer-link">Popular</a>
+            </li>
+            <li class="mt-one-half">
+              <a href="#" class="footer-link">Category</a>
+            </li>
+          </ul>
+
+          <ul class="footer-wrapper">
+            <li>
+              <h4>Company</h4>
+            </li>
+            <li class="mt-one-half">
+              <a href="#" class="footer-link">Why Khao ji Khao</a>
+            </li>
+            <li class="mt-one-half">
+              <a href="#" class="footer-link">Partner with us</a>
+            </li>
+            <li class="mt-one-half">
+              <a href="#" class="footer-link">About us</a>
+            </li>
+            </li>
+            <li class="mt-one-half">
+              <a href="#" class="footer-link">FAQ's</a>
+            </li>
+          </ul>
+
+          <ul class="footer-wrapper">
+            <li>
+              <h4>Support</h4>
+            </li>
+            <li class="mt-one-half">
+              <a href="#" class="footer-link">Account</a>
+            </li>
+            <li class="mt-one-half">
+              <a href="#" class="footer-link">Support Center</a>
+            </li>
+            <li class="mt-one-half">
+              <a href="#" class="footer-link">Feedback</a>
+            </li>
+            </li>
+            <li class="mt-one-half">
+              <a href="#" class="footer-link">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
   </body>
 </html>
