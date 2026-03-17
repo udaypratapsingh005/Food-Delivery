@@ -13,7 +13,9 @@ const cardList = document.querySelector(".card-list");
 const cartList = document.querySelector(".cart-list");
 const cartTotal = document.querySelector(".cart-total");
 const cartValue = document.querySelector(".cart-value");
-
+const humburger = document.querySelector(".hamburger");
+const mobileMenu = document.querySelector(".mobile-menu");
+const bars = document.querySelector(".fa-bars");
 
 
 cartIcon.addEventListener("click", () =>
@@ -22,6 +24,12 @@ cartIcon.addEventListener("click", () =>
 closeBtn.addEventListener("click", () =>
   cartTab.classList.remove("cart-tab-active"),
 );
+humburger.addEventListener("click" , ()=> {
+  mobileMenu.classList.toggle("mobile-menu-active")
+})
+humburger.addEventListener("click" , ()=> {
+  bars.classList.toggle("fa-xmark")
+})
 
 let productList = [];
 let cartProduct = [];
