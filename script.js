@@ -38,7 +38,7 @@ const updateTotal = ()=> {
   let totalPrice = 0;
   let totalQuantity = 0;
 
-  document.querySelectorAll('.item').forEach(item => {
+  document.querySelector('.item').forEach(item => {
     const quantity = parseInt(item.querySelector('.quantity-value').textContent)
     const price = parseFloat(item.querySelector('.item-total').textContent.replace('₹',''));
 
@@ -143,7 +143,7 @@ const addToCart = (product) =>{
 
       }
       else{
-        cartItem.classList.add('slide-ot')
+        cartItem.classList.add('slide-out')
 
         setTimeout(()=>{
           cartItem.remove();
