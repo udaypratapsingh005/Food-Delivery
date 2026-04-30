@@ -553,3 +553,5 @@ input[type="email"]:focus {
     font-size: 3.5rem;
   }
 }
+
+.auth-overlay{position:fixed;inset:0;background:rgba(0,0,0,.65);display:none;justify-content:center;align-items:center;z-index:9999;padding:1rem}.auth-box{width:420px;max-width:100%;background:#fffdf7;padding:2rem;border-radius:1.5rem;position:relative}.auth-close{position:absolute;right:18px;top:12px;font-size:28px;cursor:pointer}.auth-box input{width:100%;padding:14px;margin:.6rem 0;border:1px solid #ddd;border-radius:.8rem}.auth-submit{width:100%;border:none;cursor:pointer}.switch-text{text-align:center;margin-top:1rem}.switch-text span{color:#f2bd12;font-weight:700;cursor:pointer}

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aao ji Aao</title>
+    <title>Khao ji Khao</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -25,7 +25,7 @@
         <a href="#" class="logo">Khao Ji Khao</a>
 
         <!-- DESKTOP MENU -->
-        <ul class="navlist flex gap-3">
+        <ul class="navlist flex gap-3"> 
           <li>
             <a href="#">Home</a>
           </li>
@@ -450,5 +450,6 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <div class="auth-overlay" id="authOverlay"><div class="auth-box"><span class="auth-close" onclick="closeAuthPopup()">×</span><div id="loginBox"><h2>Welcome Back</h2><input type="email" id="loginEmail" placeholder="Email"><input type="password" id="loginPassword" placeholder="Password"><button class="btn auth-submit" onclick="loginUser()">Login</button><p class="switch-text">New here? <span onclick="showSignup()">Create Account</span></p></div><div id="signupBox" style="display:none;"><h2>Create Account</h2><input type="text" id="signupName" placeholder="Full Name"><input type="email" id="signupEmail" placeholder="Email"><input type="password" id="signupPassword" placeholder="Password"><button class="btn auth-submit" onclick="signupUser()">Sign Up</button><p class="switch-text">Already user? <span onclick="showLogin()">Login</span></p></div></div></div>
   </body>
 </html>
