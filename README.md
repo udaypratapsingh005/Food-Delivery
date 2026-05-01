@@ -4,28 +4,30 @@ A responsive food ordering web app built with vanilla HTML, CSS, and JavaScript.
 
 ---
 
+## 🚀 Latest Update
+
+🔐 **Login & Sign Up Authentication Page Added**
+
+- Responsive Login Popup  
+- Modern Sign Up Form  
+- Smooth Toggle Between Login / Register  
+- Better User Experience  
+- Clean UI Design  
+
+---
+
 ## 🚀 Live Features
 
-- 🛒 **Add to Cart** — Add items, increase/decrease quantity, auto-remove at 0
-- 💰 **Real-time Total** — Cart total and item count updates instantly
-- 📦 **Dynamic Menu** — Products loaded from `products.json` (no hardcoding)
-- 📱 **Responsive Design** — Mobile hamburger menu, works on all screen sizes
-- 🎠 **Review Carousel** — Swiper.js powered testimonial slider
-- 🔒 **Duplicate Prevention** — Same item can't be added twice
+- 🛒 **Add to Cart** — Add items, increase/decrease quantity, auto-remove at 0  
+- 💰 **Real-time Total** — Cart total and item count updates instantly  
+- 📦 **Dynamic Menu** — Products loaded from `products.json` (no hardcoding)  
+- 📱 **Responsive Design** — Mobile hamburger menu, works on all screen sizes  
+- 🎠 **Review Carousel** — Swiper.js powered testimonial slider  
+- 🔒 **Duplicate Prevention** — Same item can't be added twice  
+- 🔐 **Login & Sign Up Page** — Frontend authentication UI added  
 
 ---
 
-## 🛠️ Tech Stack
-
-| Technology | Usage |
-|---|---|
-| HTML5 | Structure & Semantics |
-| CSS3 | Styling, Flexbox, Media Queries |
-| JavaScript (Vanilla) | DOM Manipulation, Cart Logic, Fetch API |
-| Swiper.js | Review Carousel |
-| Font Awesome | Icons |
-
----
 
 ## 📁 Project Structure
 
