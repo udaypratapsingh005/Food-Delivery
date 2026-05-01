@@ -1,6 +1,4 @@
-// ==========================
-// SWIPER
-// ==========================
+
 var swiper = new Swiper(".mySwiper", {
   loop: true,
   navigation: {
@@ -9,9 +7,7 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
-// ==========================
-// EXISTING ELEMENTS
-// ==========================
+
 const cartIcon = document.querySelector(".cart-icon");
 const cartTab = document.querySelector(".cart-tab");
 const closeBtn = document.querySelector(".close-btn");
@@ -23,9 +19,7 @@ const humburger = document.querySelector(".hamburger");
 const mobileMenu = document.querySelector(".mobile-menu");
 const bars = document.querySelector(".fa-bars");
 
-// ==========================
-// NAV / CART EVENTS
-// ==========================
+
 cartIcon.addEventListener("click", () => {
   cartTab.classList.add("cart-tab-active");
 });
@@ -39,15 +33,11 @@ humburger.addEventListener("click", () => {
   bars.classList.toggle("fa-xmark");
 });
 
-// ==========================
-// PRODUCT + CART
-// ==========================
+
 let productList = [];
 let cartProduct = [];
 
-// ==========================
-// UPDATE TOTAL
-// ==========================
+
 function updateTotal() {
   let totalPrice = 0;
   let totalQuantity = 0;
@@ -69,9 +59,7 @@ function updateTotal() {
   cartValue.textContent = totalQuantity;
 }
 
-// ==========================
-// SHOW PRODUCTS
-// ==========================
+
 function showCards() {
   productList.forEach((product) => {
     const orderCard = document.createElement("div");
@@ -100,9 +88,7 @@ function showCards() {
   });
 }
 
-// ==========================
-// ADD TO CART
-// ==========================
+
 function addToCart(product) {
   const existingProduct = cartProduct.find(
     (item) => item.id === product.id
@@ -184,9 +170,6 @@ function addToCart(product) {
   });
 }
 
-// ==========================
-// FETCH PRODUCTS.JSON
-// ==========================
 function initApp() {
   fetch("products.json")
     .then((response) => response.json())
@@ -198,9 +181,6 @@ function initApp() {
 
 initApp();
 
-// ==========================
-// LOGIN / SIGNUP POPUP
-// ==========================
 function openAuthPopup() {
   document.getElementById("authOverlay").style.display = "flex";
   showLogin();
@@ -220,9 +200,7 @@ function showLogin() {
   document.getElementById("signupBox").style.display = "none";
 }
 
-// ==========================
-// SIGNUP
-// ==========================
+
 function signupUser() {
   const user = {
     name: document.getElementById("signupName").value,
@@ -241,9 +219,7 @@ function signupUser() {
   showLogin();
 }
 
-// ==========================
-// LOGIN
-// ==========================
+
 function loginUser() {
   const savedUser = JSON.parse(
     localStorage.getItem("khaoUser")
@@ -269,17 +245,13 @@ function loginUser() {
   }
 }
 
-// ==========================
-// LOGOUT
-// ==========================
+
 function logoutUser() {
   localStorage.removeItem("isLoggedIn");
   location.reload();
 }
 
-// ==========================
-// UPDATE NAVBAR BUTTONS
-// ==========================
+
 function updateAuthButtons(name) {
   document.querySelectorAll(".auth-btn").forEach((btn) => {
     btn.innerHTML = `Hi, ${name}`;
@@ -290,9 +262,6 @@ function updateAuthButtons(name) {
   });
 }
 
-// ==========================
-// PAGE LOAD CHECK
-// ==========================
 window.addEventListener("load", () => {
   const savedUser = JSON.parse(
     localStorage.getItem("khaoUser")
