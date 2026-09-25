@@ -51,11 +51,9 @@ khao-ji-khao/
 
 ---
 
-## 🔧 How to Run
+## 🔧 Click to Run
+Live :- https://food-delivery-pi-seven.vercel.app/
 
-1. Clone the repo
-2. Open `index.html` in your browser
-3. Make sure `products.json` is served via a local server (e.g. VS Code Live Server) — direct file open will block the fetch request
 
 ---
 
