@@ -81,6 +81,7 @@ This project is still in progress. As I learn new skills, I'll keep adding featu
 
 ## 🙋‍♂️ Author
 
-**UDAY PRATAP SINGH**  
-[LinkedIn]:- (www.linkedin.com/in/uday-pratap-singh-18b380398) 
-[GitHub]:- (https://github.com/udaypratapsingh005)
+**UDAY PRATAP SINGH**
+Live:- https://food-delivery-pi-seven.vercel.app/
+LinkedIn:- www.linkedin.com/in/uday-pratap-singh-18b380398 
+GitHub:- https://github.com/udaypratapsingh005
